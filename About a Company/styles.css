@@ -1,0 +1,175 @@
+/* Stefan Hassell
+"Pretty About You"
+Sept. 14, 2021 */
+
+/*CSS reset*/
+*{
+  margin:0;
+  padding:0;
+}
+
+/*Format the backround of the top nav bar*/
+nav ul{
+  width: 100%;
+  background-color: rgb(68, 40, 21);
+  display: flex;
+  list-style: none;
+}
+
+/*Format font on the top nav bar
+color, bold, spacing, rid of default link decoration*/
+nav a{
+  color: white;
+  font-weight: bold;
+  display: block;
+  padding: 15px;
+  margin-left: 350px;
+  text-decoration: none;
+}
+
+/*Change font to underline when hovering over link*/
+nav a:hover{
+  text-decoration: underline;
+}
+
+/*Background color of entire page*/
+body {
+  background-color: #dabca9;
+}
+
+/*Set body and html to full height so nothing will overlap
+Setting font style for body unless told otherwise*/
+body, html{
+  height: 100%;
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Font alignment and padding for subhead class*/
+.subhead {
+  text-align: center;
+  padding: 5px;
+}
+
+/* Font size for p's*/
+p {
+  font-size: 125%;
+}
+
+/* Font alignment for p's in bio class*/
+p.bio {
+  text-align: left;
+  padding-right: 50px;
+  padding-left: 475px;
+}
+
+/* Alginment and padding for h1 font (one of the subheadings)*/
+h1 {
+  text-align: center;
+  padding: 25px;
+}
+
+/*Creating the columns and rows for product page.*/
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 4px;
+}
+
+/*width of imgs and padding/flex for the columns the are in*/
+.column {
+  flex: 25%;
+  max-width: 50%;
+  padding: 0 4px;
+}
+
+/*Setting img to fill each column fully. Margin for space before start of image
+and aligning them with each other*/
+.column img {
+  margin-top: 8px;
+  vertical-align: middle;
+  width: 100%;
+}
+
+/*Linking background image for header. Setting hieght, position, occourance
+size and position for the rest of the content to build around*/
+.hero-image {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), 
+  url("header.jpg");
+  height: 50%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+/*alginment, color, and position of text on header*/
+.hero-text {
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+}
+/*Decoration, color, alignment, cursor, and position for the hire me! button*/
+a.button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 10px 25px;
+  color: black;
+  background-color: #ddd;
+  text-align: center;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+/*Change background of color when hovering over button*/
+a.button:hover {
+  background-color: #555;
+  color: white;
+}
+
+/*Setting font style for the bold class in the paragraph.
+Change style mid sentence.*/
+.bold {
+  font-weight: bold;
+  font-size: 22px;
+  font-style: italic;
+}
+
+/*Position and look of the picture. Allow text next to it*/
+.cupcake {
+  float: left;
+  height: 400px;
+  padding: 20px;
+}
+
+/*Color, height, text color, position of the footer*/
+#footer {
+  color: white;
+  height: 60px;
+  background-color: rgb(68, 40, 21);
+  padding: 8px;
+  clear: left;
+}
+
+/*Format of link in footer. White with no underline*/
+footer a {
+  text-decoration: none;
+  color: white;
+}
+
+/*Add underline when hovering over link*/
+footer a:hover {
+  text-decoration: underline;
+}
+
+/*font of h4 in footer with padding (space) on left
+inline-block to allow them to be in one line together.*/
+h4 {
+  font-family: Arial, Helvetica, sans-serif;
+  display: inline-block;
+  padding-left: 17%;
+}

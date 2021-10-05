@@ -1,0 +1,293 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+body{
+    font-family: Arial, sans-serif;
+}
+
+div{
+    margin-bottom:30px;
+}
+
+fieldset{
+    border: 0;
+    padding: 30px;
+}
+
+h1{
+    padding: 2%;
+}
+
+p.homepagetop{
+    font-size: .2in;
+    width: 65%;
+    text-align: left;
+    padding-left: 300px;
+}
+
+p.homepagebottom{
+    font-size: .2in;
+    width: 65%;
+    text-align: right;
+    padding-left: 400px;
+}
+
+.return{
+    padding-left: 2%;
+}
+
+label{
+    font-size:20px;
+}
+
+  /*Setting underline border under each input field*/
+input{
+    border: 0;
+    border-bottom: 1px solid grey;
+    padding: 10px 0;
+    width: 200px;
+}
+
+textarea{
+    border: 0;
+    border-bottom: 1px solid grey;
+    padding: 10px 0;
+    width: 300px;
+}
+
+/*formating position, size, borders, color of select box*/
+select{
+    background: transparent;
+    border: 0;
+    border-radius: 0;
+    border-bottom: 1px solid grey;
+    box-shadow: none;
+    color: #667;
+    -webkit-appearance: none;
+    padding: 10px 0;
+    width: 200px;
+}
+
+/*Position and size inside of select box*/
+.select-wrapper{
+    position: relative;
+    width: 200px;
+}
+
+.select-wrapper:after{
+    content:'<>';
+    color: #667;
+    font-size: 14px;
+    top: 8px;
+    right: 0;
+    transform: rotate(90deg);
+    position: absolute;
+    z-index: -1;
+}
+
+.double-input{
+    display: flex;
+}
+
+.double-input>div{
+    margin-right: 75px;
+}
+
+.checkbox input{
+    margin-right: 10px;
+    width:auto;
+}
+
+.checkbox{
+    padding: 10px;
+}
+
+button{
+    background: rgb(49, 202, 177);
+    border: 0;
+    color: white;
+    font-size: 12px;
+    height: 50px;
+    width: 200px;
+    text-transform: uppercase;
+}
+
+input:valid, textarea:valid{
+    border-bottom-color: green;
+}
+input:invalid, textarea:invalid{
+    border-bottom-color: red;
+}
+
+  /*Change background of color when hovering over button*/
+.button:hover {
+    background-color: #555;
+    color: white;
+  }
+  
+  /*Format the backround of the top nav bar*/
+nav ul{
+    width: 100%;
+    background-color: rgb(49, 202, 177);
+    display: flex;
+    list-style: none;
+  }
+  
+  /*Format font on the top nav bar
+  color, bold, spacing, rid of default link decoration*/
+  nav a{
+    color: white;
+    font-weight: bold;
+    display: block;
+    padding: 15px;
+    text-decoration: none;
+  }
+  
+  /*Change font to underline when hovering over link*/
+  nav a:hover{
+    text-decoration: underline;
+  }
+
+  .rope {
+    float: left;
+    height: 460px;
+    width: 290px;
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+
+  .spin {
+    float: right;
+    height: 400px;
+    width: 290px;
+    padding-bottom: 5px;
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+
+  header h1 {
+    margin-top: 10%;
+    text-align: center;
+    color: black;
+    font-weight: bold;
+    font-family: sans-serif;
+}
+ 
+    table {
+        margin-top: 2%;
+        width: max-content;
+        border: 1px solid black;
+        height: 300px;
+        margin-left: 13%;
+    }
+ 
+    td {
+        text-align: center;
+        border: 1px solid black;
+    }
+ 
+    #blank {
+        color: #000;
+        background-color: #fff;
+    }
+ 
+    #s {
+        font-weight: 800;
+        text-transform: uppercase;
+        font-family: sans-serif;
+        background-color: #ffffff;
+    }
+ 
+    #seminar {
+        font-weight: 800;
+        font-family: sans-serif;
+        background-color: #ffffff;
+        text-transform: uppercase;
+    }
+ 
+    .sub{
+        color: black;
+        font-family: sans-serif;
+        font-weight: 400;
+        background-color: #ffffff;
+        padding: 6px;
+    }
+ 
+ 
+    .box1 {
+        color: cornflowerblue;
+        font-family: sans-serif;
+        font-weight: 800;
+        padding-left: 4px;
+        padding-right: 4px;
+    }
+ 
+    .box2 {
+        color: darkorange;
+        font-weight: 800;
+        font-family: sans-serif;
+        padding-left: 4px;
+        padding-right: 4px;
+    }
+     
+    .box3 {
+        color: darkviolet;
+        font-weight: 800;
+        font-family: sans-serif;
+        padding-left: 4px;
+        padding-right: 4px;
+    }
+     
+    .box4 {
+        color: green;
+        font-weight: 800;
+        font-family: sans-serif;
+        padding-left: 4px;
+        padding-right: 4px;
+    }
+     
+    .box5 {
+        color: red;
+        font-family: sans-serif;
+        font-weight: 800;
+        padding-left: 4px;
+        padding-right: 4px;
+    }
+     
+    .box6 {
+        color: hotpink;
+        font-weight: 800;
+        font-family: sans-serif;
+        padding-left: 4px;
+        padding-right: 4px;
+    }
+     
+    .box7 {
+        color: blue;
+        font-family: sans-serif;
+        font-weight: 800;
+        padding-left: 4px;
+        padding-right: 4px;
+    }
+    
+    .box8{
+        color: rgb(139, 73, 18);
+        font-family: sans-serif;
+        font-weight: 800;
+        padding-left: 4px;
+        padding-right: 4px;
+    }
+    
+    .box9{
+        color: rgb(4, 139, 139);
+        font-family: sans-serif;
+        font-weight: 800;
+        padding-left: 4px;
+        padding-right: 4px;
+    }
+    
+    .intext{
+        text-decoration: none;
+    }

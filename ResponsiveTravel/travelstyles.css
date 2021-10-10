@@ -1,0 +1,81 @@
+/* Stefan Hassell
+"Pretty About You"
+Sept. 14, 2021 */
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+nav ul{
+  list-style: none;
+}
+
+nav a{
+  color: white;
+  background: black;
+  font-weight: bold;
+  display: block;
+  padding: 15px;
+  font-size: 15px;
+  text-decoration: none;
+}
+
+nav a:hover {
+  background: darkgray;
+  text-decoration: underline;
+}
+
+img {
+  padding: 1%;
+  width: 85%;
+  height: 30%;
+}
+
+p {
+  text-align: center;
+}
+
+@media (min-width: 480px){
+  nav ul{
+    display: flex;
+  }
+  nav li{
+    flex: 1 1 auto;
+  }
+  h1, p, img{
+    padding: 20px;
+    margin-left: 30px;
+    margin-right: 50px;
+
+  }
+  p {
+    text-align: left;
+  }
+  img {
+    width: 75%;
+    height: 20%
+  }
+}
+
+@media only screen and (min-width: 768px){
+  nav a{
+    font-size: 20px;
+  }
+  p {
+    font-size: 20px;
+  }
+  h1{
+    font-size: 35px;
+  }
+}
+
+@media only print{
+  body {
+    background: transparent;
+  }
+  nav {
+    display: none;
+  }
+
+}

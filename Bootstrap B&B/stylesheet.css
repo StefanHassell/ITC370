@@ -31,3 +31,14 @@
     margin-right: 80px;
     margin-left: 80px;
 }
+.AmenitiesHeader{
+    padding-left: 45%;
+    font-weight: bold;
+}
+.amenities{
+    padding-left: 110px;
+    padding-right: 110px;
+}
+.card-text{
+    text-align: center;
+}

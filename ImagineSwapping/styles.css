@@ -1,0 +1,17 @@
+body{
+    background-color: rgb(94, 92, 92);
+}
+
+.thumbnails {
+    height: 150px;
+    width: 300px;
+    padding: 5px;
+}
+
+.mainImage {
+    height: 300px;
+    width: 550px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}

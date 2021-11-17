@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+    <!-- Tanner Kidwell & Stefan Hassell
+    11/16/21
+    Image Swapping-->
+        <meta charset="utf-8">
+        <title>Image Swapping</title>
+        
+        <link rel="stylesheet" href="styles.css"/>
+    </head>
+    <body>
+        <div>
+            <img src="img1.jpg" alt=" " class="mainImage" id="largeImage"/>
+        </div>
+
+        <div>
+            <img src="img1.jpg" alt="doublemac" class="thumbnails" 
+            id="img1" onclick="changeImage(document.getElementById('img1').src)"/>
+
+            <img src="img2.jpg" alt="halfopen" class="thumbnails" 
+            id="img2" onclick="changeImage(document.getElementById('img2').src)"/>
+
+            <img src="img3.jpg" alt="front" class="thumbnails" 
+            id="img3" onclick="changeImage(document.getElementById('img3').src)"/>
+
+            <img src="img4.jpg" alt="closedmac" class="thumbnails" 
+            id="img4" onclick="changeImage(document.getElementById('img4').src)"/>
+        </div>
+
+
+        <script src='scripts.js'></script>
+    </body>
+</html>
